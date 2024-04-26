@@ -1,0 +1,36 @@
+# Questionário
+
+### 1. Explique como o método **`map`** funciona em JavaScript e forneça um exemplo de uso.
+
+O método map chama a função callback recebida por parâmetro para cada elemento do Array original, em ordem, e constrói
+um novo array com base nos retornos de cada chamada. A função callbacké chamada apenas para os elementos do array
+original que têm valores atribuídos; os elementos que sejam como undefined, que tenham sido removidos ou os que nunca
+tenham tido valores designados não serão considerados.
+
+### 2. Qual é a diferença entre os métodos **`map`**, **`filter`** e **`reduce`** em JavaScript? Dê um exemplo de uso
+para cada um.
+
+map: Este método cria um novo array com os resultados de chamar uma função fornecida para cada elemento no array de origem.
+ Em outras palavras, ele mapeia cada elemento do array original para um novo valor com base em uma função de mapeamento fornecida.
+
+filter: Este método cria um novo array com todos os elementos que passam no teste implementado pela função fornecida.
+ Em outras palavras, ele filtra os elementos do array original com base em uma condição especificada.
+
+reduce: Este método aplica uma função a um acumulador e a cada elemento do array para reduzi-lo a um único valor.
+ Em outras palavras, ele reduz os elementos do array a um único valor com base em uma função de redução especificada.
+
+### 3. O que são módulos internos no Node.js? Dê exemplos de alguns módulos internos e explique brevemente sua função.
+
+### 4. Qual é a finalidade do módulo **`os`** no Node.js? Forneça um exemplo de como usar este módulo.
+
+### 5. O que é o módulo **`fs`** no Node.js e para que serve? Dê um exemplo de uso deste módulo.
+
+### 6. Como você pode importar funções ou objetos de um arquivo JavaScript para outro usando os recursos internos de
+módulos do Node.js? Explique com um exemplo.
+
+### 7. Descreva como você pode manipular arquivos no sistema de arquivos usando o módulo **`fs`** do Node.js.
+
+### 8. Explique brevemente o conceito de exportação e importação de módulos no Node.js, incluindo a diferença entre
+**`module.exports`** e **`exports`**.
+
+### 9. Como você pode criar e manipular objetos em JavaScript? Forneça exemplos de como criar objetos no JavaScript.
